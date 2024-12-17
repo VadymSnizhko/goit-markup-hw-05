@@ -527,6 +527,7 @@ ol{
     background-color: transparent;
     border-color: #FFFFFF;
     border-radius: 4px;
+    color: #FFFFFF;
 }
 
 input::placeholder {
@@ -544,18 +545,34 @@ input::placeholder {
 }
 
 .btn-sub{
+    display: inline-flex;
+    align-items: center;
+    gap: 16px;
     color: #FFFFFF;
     background-color: #4d5ae5;
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 24px;
+    padding-right: 24px;
     border: 0;
     border-radius: 4px;
     margin-left: 24px;
     max-width: 264px;
+    min-height: 40px;
+}
+
+.btn-lab{
+    height: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #fff;
 }
 
 .icon-send{
+    display: block;
     fill: #FFFFFF;
 }
 /* #endregion */
