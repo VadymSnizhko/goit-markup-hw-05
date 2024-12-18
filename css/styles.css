@@ -637,7 +637,7 @@ input::placeholder {
 .modal-overlay:not(.is-open) .modal{
     transform: translate(-50%, -50%) scale(1.5);
 }
-
+/*
 .circle-icon{
     display: flex;
     justify-content: center;
@@ -653,19 +653,31 @@ input::placeholder {
     background-color: #e7e9fc;
     stroke-width: 1px;
     stroke: rgba(0, 0, 0, 0.1);    
+}*/
+
+.modal-close{
+    position: absolute;
+    top: 24px;
+    right: 24px;
+
+    border: none;
+    border-radius: 100%;
+    background-color: #e7e9fc;
+    stroke-width: 1px;
+    stroke: rgba(0, 0, 0, 0.1);
 }
 
 .icon_close{
     fill: #2e2f42;
 }
 
-.circle-icon:hover .icon_close,
-.circle-icon:focus .icon_close {
+.modal-close:hover .icon_close,
+.modal-close:focus .icon_close {
     fill: #fff;
 }
 
-.circle-icon:hover,
-.circle-icon:focus {
+.modal-close:hover,
+.modal-close:focus {
     background-color: #404bbf;
 }
 
