@@ -746,9 +746,7 @@ input::placeholder {
     margin-bottom: 16px;
 }
 
-.form-name-input,
-.form-phone-input,
-.form-email-input{
+.form-input{
     position: relative;
 }
 
