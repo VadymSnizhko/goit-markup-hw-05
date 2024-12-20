@@ -536,6 +536,14 @@ ol{
     padding-left: 16px;
 
     /*margin-top: 16px;*/
+    width: 264px;
+    height: 40px;
+
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); 
+
     background-color: transparent;
     border: 1px solid #fff;
     border-radius: 4px;
@@ -570,6 +578,7 @@ input::placeholder {
 .btn-sub{
     display: inline-flex;
     align-items: center;
+    justify-content: center;
     /*gap: 16px;*/
     color: #FFFFFF;
     background-color: #4d5ae5;
@@ -580,6 +589,7 @@ input::placeholder {
     border: 0;
     border-radius: 4px;
     /*margin-left: 24px;*/
+    min-width: 165px;
     max-width: 264px;
     min-height: 40px;
     cursor: pointer;
@@ -602,6 +612,8 @@ input::placeholder {
 .icon-send{
     display: block;
     fill: #FFFFFF;
+    height: 24px;
+    margin-left: 16px;
 }
 /* #endregion */
 
