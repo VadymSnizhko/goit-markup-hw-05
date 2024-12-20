@@ -612,7 +612,7 @@ input::placeholder {
 .icon-send{
     display: block;
     fill: #FFFFFF;
-    height: 24px;
+    /*height: 24px;*/
     margin-left: 16px;
 }
 /* #endregion */
