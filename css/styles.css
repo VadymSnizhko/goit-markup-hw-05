@@ -526,6 +526,7 @@ ol{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    gap: 24px;
 }
 
 
@@ -534,7 +535,7 @@ ol{
     padding-bottom: 8px;
     padding-left: 16px;
 
-    margin-top: 16px;
+    /*margin-top: 16px;*/
     background-color: transparent;
     border: 1px solid #fff;
     border-radius: 4px;
@@ -562,13 +563,14 @@ input::placeholder {
         line-height: 1.5;
         letter-spacing: 0.02em;
     color: #FFFFFF;
+    margin-bottom: 16px; 
     /*margin-left: 80px;*/
 }
 
 .btn-sub{
     display: inline-flex;
     align-items: center;
-    gap: 16px;
+    /*gap: 16px;*/
     color: #FFFFFF;
     background-color: #4d5ae5;
     padding-top: 8px;
@@ -577,7 +579,7 @@ input::placeholder {
     padding-right: 24px;
     border: 0;
     border-radius: 4px;
-    margin-left: 24px;
+    /*margin-left: 24px;*/
     max-width: 264px;
     min-height: 40px;
     cursor: pointer;
