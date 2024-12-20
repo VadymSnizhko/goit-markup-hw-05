@@ -742,6 +742,10 @@ input::placeholder {
     margin-bottom: 8px;
 }
 
+.form-comment{
+    margin-bottom: 16px;
+}
+
 .form-name-input,
 .form-phone-input,
 .form-email-input{
@@ -786,7 +790,14 @@ input::placeholder {
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     padding: 8px 16px;
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+
+    font-size: 12px; 
+    line-height: 1.17; 
+    letter-spacing: 0.04em; 
+    color: rgba(46, 47, 66, 0.4); 
+    background-color: transparent; 
+    outline: transparent; 
 }
 
 .inp-comment:active,
@@ -836,13 +847,14 @@ input::placeholder {
 
 .input-checkbox:checked + .form-checkbox .castum-checkbox {
     background-color: #404bbf;
-    border: 1px solid #404bbf;
+    /*border: 1px solid #404bbf;*/
     fill: #f4f4fd;
+    border: none; 
 }
 
 .form-checkbox{
     font-size: 12px;
-    line-height: 1.167;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
 }
