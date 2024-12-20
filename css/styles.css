@@ -577,7 +577,14 @@ input::placeholder {
     max-width: 264px;
     min-height: 40px;
     cursor: pointer;
-    transition: background-colo 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        text-align: center;
+        color: #fff;cursor: pointer;
 }
 
 .btn-sub:hover,
@@ -585,16 +592,6 @@ input::placeholder {
     background-color: #404BBF;
 }
 
-.btn-lab{
-    height: 24px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    text-align: center;
-    color: #fff;
-    cursor: pointer;
-}
 
 .icon-send{
     display: block;
